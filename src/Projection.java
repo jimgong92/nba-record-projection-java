@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Projection {
 	protected File statsheet;
-	private static final File WSV_FILE = new File("data/WP/winStabilizationValues.csv");
+	private static final File WSV_FILE = new File("data/weights/winStabilizationValues.csv");
 	protected final int POSSIBLE_MINUTES = 3936, TOTAL_GAMES = 82;
 	protected String teamName;
 	protected String record;

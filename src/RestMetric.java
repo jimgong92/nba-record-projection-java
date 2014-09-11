@@ -11,8 +11,8 @@ import java.util.Scanner;
  */
 public class RestMetric {
 
-	public static final File CURR_REST_FILE = new File("data/Schedule/rest_analysis_15.csv");
-	public static final File PREV_REST_FILE = new File("data/Schedule/rest_analysis_14.csv");
+	public static final File PREV_REST_FILE = new File("data/weights/schedule/rest_analysis_14.csv");
+	public static final File CURR_REST_FILE = new File("data/weights/schedule/rest_analysis_15.csv");
 	
 	//penalties based on study indicating 7% reduced winrate on back to backs
 	public static final double PEN1 = 0.14, PEN2 = 0.105, PEN3 = 0.07, PEN4 = 0.035;

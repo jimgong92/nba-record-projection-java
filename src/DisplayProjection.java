@@ -159,6 +159,7 @@ public class DisplayProjection {
 	}
 	
 	public static void main(String[] args) throws FileNotFoundException {
+		System.out.println(RestMetric.CURR_REST_FILE.isFile());
 		DisplayProjection records = new DisplayProjection(true);
 		ArrayList<Projection> recordsOI = records.combined_proj;
 		//display
